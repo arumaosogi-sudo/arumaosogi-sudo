@@ -108,15 +108,6 @@ with the service layer kept separate from the UI so it can move to a real API wi
 
 ---
 
-### GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=arumaosogi-sudo&show_icons=true&hide_border=true&title_color=64ffda&icon_color=64ffda&text_color=8892b0&bg_color=0a192f" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arumaosogi-sudo&layout=compact&hide_border=true&title_color=64ffda&text_color=8892b0&bg_color=0a192f" alt="Top languages">
-</p>
-
----
-
 ### Currently learning
 
 Kubernetes basics · deeper automated test coverage · system design at scale
@@ -130,5 +121,6 @@ myself before it ships. If I can't explain a piece of code, it doesn't go in.
 
 <p align="center">
   <b>Open to part-time and freelance work while I finish my degree.</b><br>
-  📧 <a href="mailto:aruma.osogi@gmail.com">aruma.osogi@gmail.com</a>
+  📧 <a href="mailto:aruma.osogi@gmail.com">aruma.osogi@gmail.com</a><br>
+  📄 <a href="https://github.com/arumaosogi-sudo/portfolio/raw/main/Nitiphum-Hongson-CV-EN.pdf">Download my CV (PDF)</a>
 </p>
