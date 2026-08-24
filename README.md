@@ -6,6 +6,9 @@
 </p>
 
 <p align="center">
+  <a href="https://arumaosogi-sudo.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-arumaosogi--sudo.github.io-c9a961?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0a192f" alt="Portfolio">
+  </a>
   <a href="mailto:aruma.osogi@gmail.com">
     <img src="https://img.shields.io/badge/Email-aruma.osogi%40gmail.com-64ffda?style=flat-square&logo=gmail&logoColor=white&labelColor=0a192f" alt="Email">
   </a>
@@ -124,6 +127,7 @@ myself before it ships. If I can't explain a piece of code, it doesn't go in.
 
 <p align="center">
   <b>Open to part-time and freelance work while I finish my degree.</b><br>
+  🌐 <a href="https://arumaosogi-sudo.github.io/portfolio/">arumaosogi-sudo.github.io/portfolio</a><br>
   📧 <a href="mailto:aruma.osogi@gmail.com">aruma.osogi@gmail.com</a> &nbsp;·&nbsp; 📱 <a href="tel:+66661097439">066-109-7439</a><br>
   📄 <a href="https://github.com/arumaosogi-sudo/portfolio/raw/main/Nitiphum-Hongson-CV-EN.pdf">Download my CV (PDF)</a>
 </p>
