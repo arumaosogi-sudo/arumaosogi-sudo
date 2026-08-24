@@ -9,6 +9,9 @@
   <a href="mailto:aruma.osogi@gmail.com">
     <img src="https://img.shields.io/badge/Email-aruma.osogi%40gmail.com-64ffda?style=flat-square&logo=gmail&logoColor=white&labelColor=0a192f" alt="Email">
   </a>
+  <a href="tel:+66661097439">
+    <img src="https://img.shields.io/badge/Phone-066--109--7439-8892b0?style=flat-square&logo=phone&logoColor=white&labelColor=0a192f" alt="Phone">
+  </a>
   <img src="https://img.shields.io/badge/Based%20in-Chiang%20Rai,%20Thailand-8892b0?style=flat-square&labelColor=0a192f" alt="Location">
   <img src="https://img.shields.io/badge/Open%20to-Part--time%20%26%20Freelance-64ffda?style=flat-square&labelColor=0a192f" alt="Open to work">
 </p>
@@ -70,7 +73,7 @@ calling it done.**
 
 ### Projects
 
-#### 🗂️ [Task Board](https://github.com/arumaosogi-sudo/Project_task_borad_appvs01) — real-time collaborative editing
+#### 🗂️ [Task Board](https://github.com/arumaosogi-sudo/Project_task_broad) — real-time collaborative editing
 Solo project, built end to end. Several people edit the same document at once and see each other's
 cursors, powered by **Yjs CRDTs over WebSocket**. Bilingual Thai/English, exports to Word.
 
@@ -121,6 +124,6 @@ myself before it ships. If I can't explain a piece of code, it doesn't go in.
 
 <p align="center">
   <b>Open to part-time and freelance work while I finish my degree.</b><br>
-  📧 <a href="mailto:aruma.osogi@gmail.com">aruma.osogi@gmail.com</a><br>
+  📧 <a href="mailto:aruma.osogi@gmail.com">aruma.osogi@gmail.com</a> &nbsp;·&nbsp; 📱 <a href="tel:+66661097439">066-109-7439</a><br>
   📄 <a href="https://github.com/arumaosogi-sudo/portfolio/raw/main/Nitiphum-Hongson-CV-EN.pdf">Download my CV (PDF)</a>
 </p>
