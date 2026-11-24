@@ -76,41 +76,60 @@ calling it done.**
 
 ### Projects
 
-#### 🗂️ [Task Board](https://github.com/arumaosogi-sudo/Project_task_broad) — real-time collaborative editing
+#### 🗂️ [Task Board](https://github.com/arumaosogi-sudo/task-board) — real-time collaborative editing
+**[Live demo](https://taskboard-aruma-web.onrender.com)** · sign in with `demo@task-board.app` / `demo-task-board-2026`
 Solo project, built end to end. Several people edit the same document at once and see each other's
 cursors, powered by **Yjs CRDTs over WebSocket**. Bilingual Thai/English, exports to Word.
 
+- A **65-endpoint REST API across 13 NestJS modules**, over 15 Prisma models and 10 migrations
 - JWT access tokens with a rotating refresh token in an httpOnly cookie, plus Google OAuth
 - Owner / Editor / Viewer roles enforced **server-side on every action** — not by hiding buttons
-- Turborepo monorepo · 15+ Prisma tables · Docker for dev/test/prod · CI on GitHub Actions
-- Tested at three levels: unit, integration, and end-to-end with Playwright
+- **386 test cases** behind CI that also runs integration tests against a real PostgreSQL instance
+- Deployed from the project's own Dockerfile; migrations apply on boot from the image entrypoint
 
 `NestJS` `Prisma` `PostgreSQL` `React` `TypeScript` `Yjs` `Docker` `Playwright`
 
-#### 📊 [Koalytics](https://github.com/arumaosogi-sudo/koalytics-frontend) — emotion-driven UX evaluation
-Team of 6 (Thai and international teammates) — **my role: front-end**. A platform that reads a
-participant's facial emotion through their webcam during a usability test and reports it as charts.
+> The free instance sleeps when idle, so the first request after a quiet spell takes about half a minute.
 
-- 13 pages sharing one design system and navigation shell
-- Analytics dashboard built with Highcharts — emotion as gauges and time-based charts
-- A five-step test-session flow, from setup through to results
+#### 🏦 [Classroom Savings Bank](https://github.com/arumaosogi-sudo/classroom-savings-bank) — web + Android, LINE integration
+**[Live demo](https://kid-savings-bank.vercel.app)** · solo project
+Thai primary schools run a classroom savings bank out of a paper passbook. This replaces the book and
+sends each parent a weekly balance card inside **LINE** — the app their family already has, so there is
+nothing to install.
 
-`HTML` `Tailwind CSS` `JavaScript` `Highcharts`
+- Each teacher connects their own LINE Official Account: the app validates the token, registers the
+  webhook automatically, and can repair a misrouted one from the settings page
+- Channel keys encrypted at rest with **AES-256-GCM**; every webhook verified by HMAC signature
+- Built for audit — deposits pass a confirm step showing the balance before and after, and reversals
+  are recorded as visible entries instead of deletions
+- 11 PostgreSQL tables over 6 migrations, Excel export, and an Android build of the same app
 
-#### 💸 [Expense Tracker API](https://github.com/arumaosogi-sudo/worky3-api) — serverless REST API
-Solo project on Cloudflare's edge.
+`Next.js 16` `React 19` `TypeScript` `PostgreSQL` `Drizzle ORM` `LINE Messaging API` `PWA`
 
-- Six REST endpoints with every business rule enforced **twice** — at the API and again in the database
-- Machine-readable error codes for each failure path, so callers never have to parse a message
-- 21 test scenarios passing in local and production
+#### 💪 [Digital Muscle](https://github.com/arumaosogi-sudo/digital-muscle) — learning platform for a university course
+**[Live demo](https://digital-muscle.medicsync.workers.dev)** · team of 2 — **my role: the whole platform**
+Built from a lecturer's muscle-physiology textbook. Students join a section by scanning its QR code;
+instructors build the exams and read the results. I built authentication, the API, the database, the
+instructor dashboard and the 3D module; my teammate built the games.
 
-`TypeScript` `Hono` `Cloudflare Workers` `Cloudflare D1`
+- A Hono REST API of about **54 endpoints across 12 route modules** on Cloudflare Workers, over 9 D1 migrations
+- Google sign-in restricted to the university domain for students; a hashed password login for
+  instructors that locks out after 5 failed attempts in 15 minutes
+- Instructor dashboard with QR section management, a Google-Forms-style exam builder and Excel export
+- A 3D explorer built with three.js — meshopt-compressed models, step-through animations, clickable parts
 
-#### 🛒 [SAGA](https://github.com/nitiphum01/SAGA-test) — student marketplace app
-Solo Flutter project. Ten core screens — listings, chat, profile, settings — organised feature-first,
-with the service layer kept separate from the UI so it can move to a real API without touching a screen.
+`Cloudflare Workers` `Hono` `Cloudflare D1` `React` `TypeScript` `three.js` `Vitest`
 
-`Flutter` `Dart` `Provider` `go_router`
+#### 🛒 [SAGA](https://github.com/nitiphum01/SAGA-test) — student marketplace with in-app chat
+Solo Flutter project. **12 screens across 5 feature modules** (~7,400 lines of Dart), organised
+feature-first with the service layer kept separate from the UI.
+
+- Full Firebase stack — Auth with Google Sign-In, Firestore, Storage and Cloud Messaging
+- A **TypeScript Cloud Function** fires on a new chat document and multicasts a push notification to
+  the recipient's devices, so delivery doesn't depend on the app being open
+- Bilingual Thai / English from the start, routed with `go_router`, state through `Provider`
+
+`Flutter` `Dart` `Firebase` `Cloud Functions` `Provider` `go_router`
 
 ---
 
