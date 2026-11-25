@@ -120,7 +120,7 @@ instructor dashboard and the 3D module; my teammate built the games.
 
 `Cloudflare Workers` `Hono` `Cloudflare D1` `React` `TypeScript` `three.js` `Vitest`
 
-#### 🛒 [SAGA](https://github.com/nitiphum01/SAGA-test) — student marketplace with in-app chat
+#### 🛒 [SAGA](https://github.com/nitiphum01/saga-marketplace) — student marketplace with in-app chat
 Solo Flutter project. **12 screens across 5 feature modules** (~7,400 lines of Dart), organised
 feature-first with the service layer kept separate from the UI.
 
